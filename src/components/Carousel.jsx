@@ -9,6 +9,7 @@ const Carousel = ({ imageUrls, title }) => {
   const timerRef = useRef(null);
   useEffect(() => {
     timerRef.current = setInterval(handleNext, 3000);
+    console.log(imageUrls);
 
     return () => clearInterval(timerRef.current);
   }, []);
