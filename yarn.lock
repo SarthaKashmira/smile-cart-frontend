@@ -1945,10 +1945,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bigbinary/neeto-cist@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@bigbinary/neeto-cist/-/neeto-cist-1.0.6.tgz#cf9e34910a765e6cb946503c0bf7ab1632ef8e17"
-  integrity sha512-UebvniTSUyNYOIZMiNSDpV4HqHtwvYfaUaE3+C4ZBSY44csUCRgwOeD0njU3rQpE5eAL+e6KYsV9moRz4/uc0g==
+"@bigbinary/neeto-cist@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@bigbinary/neeto-cist/-/neeto-cist-1.0.14.tgz#9c8a677430a53710ee8432b1eebdf2ff3b3e579a"
+  integrity sha512-/PnsxSJlE/cCVNcxwsHzHYOTg2Cn4ylTxFAXqryXvv6mSYiDmb357eyDz4elQZbCruK78Y9KZpqKY2badK+dSg==
 
 "@bigbinary/neeto-icons@1.17.6":
   version "1.17.6"

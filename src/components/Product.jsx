@@ -14,7 +14,7 @@ const Product = () => {
     try {
       const imagesFromApi = await productsApi.show();
       console.log(imagesFromApi);
-      setProduct(imagesFromApi.data);
+      setProduct(imagesFromApi);
     } catch (err) {
       console.log(err);
     } finally {
@@ -26,14 +26,7 @@ const Product = () => {
     getProducts();
   }, []);
 
-  const {
-    name,
-    description,
-    mrp,
-    offer_price: offerPrice,
-    image_urls: imageUrls,
-    image_url: imageUrl,
-  } = product; // always convert the snake_case to camelCase
+  const { name, description, mrp, offerPrice, imageUrls, imageUrl } = product; // always convert the snake_case to camelCase
   const totalDiscounts = mrp - offerPrice;
   const discountPercentage = ((totalDiscounts / mrp) * 100).toFixed;
   //logic for setting the loader
