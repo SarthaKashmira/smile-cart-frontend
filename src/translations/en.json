@@ -1,0 +1,64 @@
+{
+  "helloWorld": "Hello World",
+  "buyNow": "Buy now",
+  "itemCount_one": "({{count}} item)",
+  "itemCount_other": "({{count}} items)",
+  "totalMrp": "Total MRP: <typography>${{mrp}}</typography>",
+  "totalDiscounts": "Total discounts: <span>${{discounts}} ({{discountPercentage}}%)</span>",
+  "offerPrice": "Total offer price: <span>${{offerPrice}}</span>",
+  "title": "Smile Cart",
+  "pageTitle": "{{title}} | Smile Cart",
+  "cart": {
+    "title": "My cart"
+  },
+  "home": {
+    "title": "Home"
+  },
+  "product": {
+    "title": "Product Detail"
+  },
+  "checkout": "Checkout",
+  "contact": "Contact",
+  "email": "Email",
+  "enterYourEmail": "Enter your email",
+  "shippingAddress": "Shipping address",
+  "country": "Country",
+  "selectCountry": "Select the country",
+  "firstName": "First name",
+  "enterFirstName": "Enter first name",
+  "lastName": "Last name",
+  "enterLastName": "Enter last name",
+  "address": "Address",
+  "enterAddress": "Enter address",
+  "apartment": "Apartment",
+  "enterApartmentNumber": "Enter apartment number",
+  "city": "City",
+  "enterCity": "Enter city name",
+  "state": "State",
+  "selectState": "Select the state",
+  "zipCode": "Zip code",
+  "enterZipCode": "Enter zip code",
+  "validations": {
+    "emailRequired": "Email address is required",
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "addressRequired": "Address is required",
+    "apartmentRequired": "Apartment is required",
+    "cityRequired": "City is required",
+    "stateRequired": "State is required",
+    "zipCodeRequired": "Zip code is required",
+    "emailInvalid": "Email address is invalid"
+  },
+  "confirmOrder": "Confirm order",
+  "error": {
+    "noInternetConnection": "No Internet Connection",
+    "networkError": "Network Error"
+  },
+  "order": {
+    "successfullyPlaced": "Order has been successfully placed"
+  },
+  "subtotal": "Subtotal <span>${{totalPrice}}</span>",
+  "totalPayablePrice": "Total Payable <span>${{totalPrice}}</span>",
+  "deliveryCharges": "Delivery charges <span>FREE</span>",
+  "saveInformationForNextTime": "Save this information for next time"
+}

@@ -1,8 +1,9 @@
-@import "@bigbinary/neetoui";
-@import "react-toastify/dist/ReactToastify.min.css";
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "@bigbinary/neetoui";
+@import "react-toastify/dist/ReactToastify.min.css";
+
 
 body {
   margin: 0;
@@ -13,7 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New' , monospace;
 }

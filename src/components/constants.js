@@ -1,6 +1,8 @@
-export const IMAGE_URLS = [
-  "https://ik.imagekit.io/d9mvewbju/SmileCart/thumbnail_61_7PaLfb.jpg",
-  "https://ik.imagekit.io/d9mvewbju/SmileCart/1_yuRfcETI5.jpg",
-  "https://ik.imagekit.io/d9mvewbju/SmileCart/2_HoKD2OblW.png",
-  "https://ik.imagekit.io/d9mvewbju/SmileCart/3_-6sHqwicC.png",
-];
+// used for validity of inputting the string
+export const VALID_COUNT_REGEX = /^(?:\d*|)$/;
+
+// used for calculating the mrp of the total items in the cart section
+export const MRP = "mrp";
+
+// used for calculating the offerPrice in the cart section
+export const OFFER_PRICE = "offerPrice";
